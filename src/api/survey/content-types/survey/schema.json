@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "surveys",
+  "info": {
+    "singularName": "survey",
+    "pluralName": "surveys",
+    "displayName": "Survey",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "beveragePreference": {
+      "type": "string"
+    },
+    "foodAlergens": {
+      "type": "string"
+    },
+    "cafe": {
+      "type": "boolean",
+      "default": false
+    },
+    "vegan": {
+      "type": "boolean",
+      "default": false
+    },
+    "note": {
+      "type": "richtext"
+    },
+    "drinkPreference": {
+      "type": "string"
+    }
+  }
+}
