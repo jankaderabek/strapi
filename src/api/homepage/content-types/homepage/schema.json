@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "location": {
+      "displayName": "section",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.section",
+      "required": true
+    },
+    "program": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.section",
+      "required": true
+    },
+    "accommodation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.section",
+      "required": true
+    },
+    "dresscode": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.section",
+      "required": true
+    },
+    "gifts": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "homepage.section"
+    },
+    "support": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.section",
+      "required": true
+    },
+    "survey": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.section",
+      "required": true
+    }
+  }
+}
