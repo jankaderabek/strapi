@@ -16,10 +16,7 @@
       "type": "string",
       "required": true
     },
-    "beveragePreference": {
-      "type": "string"
-    },
-    "foodAlergens": {
+    "foodAllergens": {
       "type": "string"
     },
     "cafe": {
@@ -42,6 +39,36 @@
         "asian",
         "pumpkin"
       ]
+    },
+    "beer": {
+      "type": "boolean"
+    },
+    "wine": {
+      "type": "boolean"
+    },
+    "prosecco": {
+      "type": "boolean"
+    },
+    "nonAlcoholic": {
+      "type": "boolean"
+    },
+    "otherBeverage": {
+      "type": "string"
+    },
+    "gin": {
+      "type": "boolean"
+    },
+    "whiskey": {
+      "type": "boolean"
+    },
+    "rum": {
+      "type": "boolean"
+    },
+    "palenka": {
+      "type": "boolean"
+    },
+    "otherDrinks": {
+      "type": "string"
     }
   }
 }
