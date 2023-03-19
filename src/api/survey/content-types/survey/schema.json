@@ -38,31 +38,39 @@
       ]
     },
     "beer": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "wine": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "prosecco": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "nonAlcoholic": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "otherBeverage": {
       "type": "string"
     },
     "gin": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "whiskey": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "rum": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "palenka": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "otherDrinks": {
       "type": "string"
