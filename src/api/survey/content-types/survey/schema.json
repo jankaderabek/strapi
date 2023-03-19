@@ -19,7 +19,7 @@
     "foodAllergens": {
       "type": "string"
     },
-    "cafe": {
+    "coffee": {
       "type": "boolean",
       "default": false
     },
@@ -29,9 +29,6 @@
     },
     "note": {
       "type": "richtext"
-    },
-    "drinkPreference": {
-      "type": "string"
     },
     "soup": {
       "type": "enumeration",
